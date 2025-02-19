@@ -2,7 +2,9 @@ from bs4 import BeautifulSoup
 import requests
 import io
 
-
+'''
+REMEMBER TO ACTIVATE VENV (workon webScraper) before working on this.
+'''
 
 def Scrape(urls: str | list[str], tag: str='a', get_val: str='href'):
     

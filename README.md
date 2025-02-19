@@ -1,1 +1,2 @@
 # python-web-scraper
+Basic webscraper built in python using BeautifulSoup4 and python requests, accepts inputs of a string of urls and strings and writes all scraped data to a file called 'scraped_data.txt'
